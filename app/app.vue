@@ -99,9 +99,6 @@ const itemsfooter: NavigationMenuItem[] = [{
 }, {
   label: 'Return Policy',
   to: '/return-policy'
-}, {
-  label: 'Privacy Policy',
-  to: '/privacy-policy'
 }]
 
 const items = computed<NavigationMenuItem[]>(() => [
