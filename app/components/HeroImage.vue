@@ -7,6 +7,7 @@ const items = [
   'https://i.etsystatic.com/54082274/r/il/893c26/7216670899/il_fullxfull.7216670899_2g5q.jpg',
   'https://i.etsystatic.com/54082274/r/il/891bff/6454663761/il_fullxfull.6454663761_6y4h.jpg',
   'https://i.etsystatic.com/iap/5b6cc3/7094137414/iap_640x640.7094137414_7meo8nzp.jpg',
+  'https://i.etsystatic.com/54082274/r/il/410f03/7229821626/il_fullxfull.7229821626_6cs2.jpg',
   'https://i.etsystatic.com/iap/10a133/6515013776/iap_640x640.6515013776_kcvpsf12.jpg'
   // 'https://i.etsystatic.com/54082274/r/il/4ed8b8/6406574970/il_fullxfull.6406574970_487a.jpg'
 ]
