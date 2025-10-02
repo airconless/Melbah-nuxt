@@ -25,11 +25,10 @@ const links = ref([
   >
     <template #title>
       <span class="text-5xl sm:text-7xl text-pretty tracking-tight font-bold text-highlighted">
-        Perfect Fit For 
-        <RotatingText 
+        Perfect Fit For<br><span class="inline-flex items-baseline">Your&nbsp;<RotatingText 
           :texts="['W204', 'W207', 'W207', 'W212','W212','X204','X204','W204']"
           split-by="characters"
-          mainClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+          mainClassName="inline-block align-baseline overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
           :staggerFrom="'last'"
           :initial="{ y: '100%' }"
           :animate="{ y: 0 }"
@@ -37,7 +36,7 @@ const links = ref([
           :staggerDuration="0.025"
           :transition="{ type: 'spring', damping: 30, stiffness: 400 }"
           :rotationInterval="1850"
-        />
+        /></span>
       </span>
     </template>
     <template #description>

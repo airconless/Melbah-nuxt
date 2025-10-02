@@ -1,6 +1,6 @@
 <template>
   <UApp>
-    <UBanner color="neutral" icon="i-lucide-earth" title="Free shipping on all orders, V2 model $89" close/>
+    <UBanner color="neutral" icon="i-lucide-earth" title="Shipping to USA resumed NO Tariffs charged to you, V2 model $89" closeable/>
     <UHeader 
     title="Melbah" 
     mode="drawer" 
