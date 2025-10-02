@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import RotatingText from "~/components/RotatingText.vue";
 const links = ref([
   {
     label: 'Upgrade Now',
@@ -18,11 +19,27 @@ const links = ref([
 
 <template>
   <UPageHero
-    title="Perfect Fit For Your Mercedes"
     headline="New V2 model"
     orientation="horizontal"
     :links="links"
   >
+    <template #title>
+      <span class="text-5xl sm:text-7xl text-pretty tracking-tight font-bold text-highlighted">
+        Perfect Fit For 
+        <RotatingText 
+          :texts="['W204', 'W207', 'W207', 'W212','W212','X204','X204','W204']"
+          split-by="characters"
+          mainClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+          :staggerFrom="'last'"
+          :initial="{ y: '100%' }"
+          :animate="{ y: 0 }"
+          :exit="{ y: '-120%' }"
+          :staggerDuration="0.025"
+          :transition="{ type: 'spring', damping: 30, stiffness: 400 }"
+          :rotationInterval="1850"
+        />
+      </span>
+    </template>
     <template #description>
       <div class="space-y-1">
         <div>• Works with iPhone and Android</div>

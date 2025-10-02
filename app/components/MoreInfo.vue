@@ -23,7 +23,7 @@ const features = ref([
 <template>
   <UPageSection
     id="more-info"
-    title="Transform your driving experience"
+    title="Transform your Mercedes"
     description="Imagine the convenience of placing your phone down and have it charging."
     :features="features"
   >
